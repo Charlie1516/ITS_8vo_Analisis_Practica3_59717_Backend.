@@ -1,5 +1,5 @@
 import { UserRepository } from "../domain/UserRepository";
-import { AuthService } from "../infrastructure/services/AuthService";
+import { AuthService } from "../infrastructure/service/AuthService";
 import { User } from "../domain/User";
 import { v4 as uuidv4 } from "uuid";
 
